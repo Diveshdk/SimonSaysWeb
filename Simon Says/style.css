@@ -3,11 +3,11 @@ body{
 }
 
 .btn{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-radius: 20%;
     border: 10px solid black;
-    margin: 2.5rem;
+    margin: 2.2rem;
 }
 
 .btn-container{
@@ -34,4 +34,20 @@ body{
 
 .flash{
     background-color: white;
+}
+
+@media (max-width: 480px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 480px) {
+    #start {
+        height: 50px;
+        width: 100px;
+        margin: 1rem;
+    }
 }
