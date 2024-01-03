@@ -1,1 +1,1 @@
-Try This Game Here : simonsaysdk.netlify.app
+Try This Game Here : simonsaysbydk.netlify.app
