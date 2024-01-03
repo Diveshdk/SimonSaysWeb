@@ -7,8 +7,8 @@ let started = false;
 let level = 0;
 
 let h3 = document.querySelector("h3");
-
-document.addEventListener("keypress", function(){
+let start = document.querySelector("#start");
+start.addEventListener("click", function(){
     if(started === false){
     console.log("game started");
     started = true;
